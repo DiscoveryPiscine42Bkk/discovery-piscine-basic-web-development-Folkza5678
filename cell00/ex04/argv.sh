@@ -1,6 +1,4 @@
 #!/bin/bash
-echo "จำนวน argument: $#"
-echo "ชื่อสคริปต์: $0"
-echo "argument 1: $1"
-echo "argument 2: $2"
-echo "argument 3: $3"
+echo "Argument 1: $1"
+echo "Argument 2: $2"
+echo "Argument 3: $3"
