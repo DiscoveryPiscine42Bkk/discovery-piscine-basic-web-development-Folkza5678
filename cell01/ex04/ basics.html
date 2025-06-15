@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basics</title>
+  <style>
+    body {
+      background: pink;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 3em;
+      margin-top: 50px;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 5px #c06;
+    }
+    .shops {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .shop {
+      text-align: center;
+    }
+    .shop img {
+      width: 220px;
+      height: 120px;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 10px;
+    }
+    hr {
+      margin: 50px 0 30px 0;
+      border: none;
+      border-top: 2px solid #fff;
+      width: 90%;
+    }
+    .copyright {
+      text-align: right;
+      font-style: italic;
+      font-family: "Fira Mono", "Consolas", monospace;
+      color: #fff;
+      margin-right: 40px;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Shop &amp; Save! 🛒</h1>
+  <div class="shops">
+    <div class="shop">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+      <div>
+        <a href="https://www.amazon.com/" target="_blank">Visit Amazon</a>
+      </div>
+    </div>
+    <div class="shop">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/EBay_logo.png" alt="eBay">
+      <div>
+        <a href="https://www.ebay.com/" target="_blank">Visit eBay</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="copyright">
+    &copy; wil 2025
+  </div>
+</body>
+</html>
