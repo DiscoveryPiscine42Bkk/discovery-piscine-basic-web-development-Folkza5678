@@ -2,59 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Responsive Full-Page Table</title>
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      box-sizing: border-box;
-    }
-    body {
-      height: 100vh;
-      width: 100vw;
-      min-height: 100vh;
-      min-width: 100vw;
-      overflow: hidden;
-    }
-    table {
-      width: 100vw;
-      height: 100vh;
-      border-collapse: collapse;
-      table-layout: fixed;
-    }
-    td {
-      width: 50vw;
-      height: 100vh;
-      text-align: center;
-      vertical-align: middle;
-      font-size: 2vw;
-      font-family: Arial, sans-serif;
-      border: 2px solid #000000;
-      word-break: break-word;
-    }
-    .box1 {
-      background-color: #14fff3; /* Sky Blue */
-      color: #ffffff;
-    }
-    .box2 {
-      background-color: #f647ff; /* Orange */
-      color: #ffffff;
-    }
-    @media (max-width: 600px) {
-      td {
-        font-size: 4vw;
-      }
-    }
-  </style>
+  <title>Folk's Super Stylish Table</title>
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <table>
-    <tr>
-      <td class="box1">Folk</td>
-      <td class="box2">zazaza </td>
-    </tr>
-  </table>
+  <div class="table-wrapper">
+    <table>
+      <tr>
+        <td class="box1">
+          <span class="emoji">🌈</span>
+          Folk
+          <div class="desc">eiei</div>
+        </td>
+        <td class="box2">
+          <span class="emoji">✨</span>
+          zazaza
+          <div class="desc">zaza</div>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
