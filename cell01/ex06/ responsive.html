@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Responsive Table</title>
+  <title>Responsive Full-Page Table</title>
   <style>
     html, body {
       height: 100%;
       margin: 0;
       padding: 0;
+      width: 100%;
+      box-sizing: border-box;
     }
     body {
       height: 100vh;
       width: 100vw;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      min-height: 100vh;
+      min-width: 100vw;
+      overflow: hidden;
     }
     table {
       width: 100vw;
@@ -27,21 +29,22 @@
       height: 100vh;
       text-align: center;
       vertical-align: middle;
-      font-size: 4vw;
-      color: #fff;
+      font-size: 2vw;
       font-family: Arial, sans-serif;
-      border: 2px solid #fff;
+      border: 2px solid #000000;
       word-break: break-word;
     }
     .box1 {
-      background: #4CAF50;
+      background-color: #14fff3; /* Sky Blue */
+      color: #ffffff;
     }
     .box2 {
-      background: #FF9800;
+      background-color: #f647ff; /* Orange */
+      color: #ffffff;
     }
     @media (max-width: 600px) {
       td {
-        font-size: 7vw;
+        font-size: 4vw;
       }
     }
   </style>
@@ -49,8 +52,8 @@
 <body>
   <table>
     <tr>
-      <td class="box1">Hello!</td>
-      <td class="box2">Welcome!</td>
+      <td class="box1">Folk</td>
+      <td class="box2">zazaza </td>
     </tr>
   </table>
 </body>
